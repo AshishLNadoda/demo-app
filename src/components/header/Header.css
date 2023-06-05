@@ -1,0 +1,60 @@
+.header{
+    height: 10vh;
+    width: 98vw;
+    display: flex;
+    
+    border: solid black 5px;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    color: green;
+    text-align: center;
+    font-weight: 700;
+    font-size: xx-large;
+    padding-top: 15px;
+    
+}
+
+.right{
+  width: 50%;
+ 
+display: flex;
+justify-content: space-evenly;
+padding-top: 15px;
+font-size: x-large;
+font-weight: 600;
+
+}
+.right a:hover{
+    color: orange;
+}
+.card{
+    width: 400px;
+    height: 500px;
+border: solid black 10px;
+margin: 100px;
+text-align: center;
+
+
+
+
+}
+img{
+ 
+    border-radius: 50%;
+}
+h1{
+text-align: center;
+}
+
+button{
+    width: 90px;
+    height: 30px;
+    background-color: orange;
+    border: solid white 1px;
+}
+.card:hover{
+    background-color: black;
+    color: white;
+}
