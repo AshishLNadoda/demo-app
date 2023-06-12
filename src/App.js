@@ -1,13 +1,13 @@
 
-import Footer from './components/weeklytest/footer/Footer'
-import Nav from './components/weeklytest/nav/Nav';
+
+import Bpp from './components/todo/Todo';
+import "./App.css";
 
 function App() {
   
   return (
     <div className="App">
-      <Nav/>
-      <Footer/>
+      <Bpp/>
      
 
      
