@@ -1,8 +1,9 @@
 
+import Epp from './components/Home13/H13'
 
 
-import Nav from './components/weeklytest/nav/Nav'
-import Footer from './components/weeklytest/footer/Footer'
+
+
 
 
 
@@ -13,8 +14,12 @@ function App() {
   return (
     <div className="App">
 
-      <Nav/>
-    <Footer/>
+  
+    
+
+ <Epp/>
+
+   
 
 
    

@@ -1,0 +1,9 @@
+.quo{
+    width: fit-content;
+    height: 150px;
+    color:  rgb(231, 60, 33);
+    font-size: 5ch;
+  
+    font-weight: 1000;
+    background-color: black;
+}

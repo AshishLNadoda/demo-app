@@ -1,6 +1,8 @@
+
 import React from 'react'
-import { useState } from "react";
-import Filter from './components/filter/Filter'
+import Filter from '../filter/Filter'
+import { useState } from "react"
+
 
 function User(){
     const[user,setUser]=useState([])
