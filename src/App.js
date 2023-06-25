@@ -1,6 +1,6 @@
-import Qpp from "./components/ass13/Asign13";
-import Zpp from "./components/ass13/Asign13b";
-
+import { Box } from '@chakra-ui/react';
+import { Navi } from "./components/weeklytest/WT5/Nav5";
+import { Middl } from "./components/weeklytest/WT5/Middle";
 
 
 
@@ -16,9 +16,10 @@ function App() {
 
   
     
-
-<Zpp/>
-
+<Box>
+<Navi/>
+<Middl/>
+</Box>
    
 
 
