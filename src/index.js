@@ -3,14 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { ChakraProvider } from '@chakra-ui/react';
-import { ContextProvider } from './components/weeklytest/WT5/PollApi';
+
+import { BrowserRouter } from 'react-router-dom';
+import { ContextProvider } from './components/assignmentcontextapi/Contextapi';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <ChakraProvider>
-        <ContextProvider>
-            <App />
-        </ContextProvider>
-    </ChakraProvider>
+    <ContextProvider >
+    <BrowserRouter>
+      <App/>
+    </BrowserRouter>
+    </ContextProvider>
+  </ChakraProvider>
 );
 
