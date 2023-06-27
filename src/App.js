@@ -1,40 +1,20 @@
-import { Box } from '@chakra-ui/react';
-import { Navbar } from './components/assignmentcontextapi/Nav';
-import { Main } from './components/assignmentcontextapi/Body';
-import { MovieDetails } from './components/assignmentcontextapi/Body1';
+
+import './App.css';
+import NavBar from './components/Component/NavBar/Navbar';
 import { Route, Routes } from 'react-router-dom';
-
-
-
-
-
-
+import Product from './components/Component/Product/Product';
+import Cart from './components/Component/Cart/Cart';
 
 
 function App() {
-  
   return (
     <div className="App">
-
-  
-    
-
-<Box backgroundColor={"black"} height={"100%"} color={"white"}>
-      <Navbar/>
-      <Routes>
-        <Route path='/' element={<Main />} />
-        <Route path='/Body1/:id' element={<MovieDetails/>}></Route>
-      </Routes>
-    </Box>
-
-   
-
-
-   
-     
-
-     
-     
+   <NavBar/>
+    <Routes>
+      
+      <Route path='/product' element={<Product/>}/>
+      <Route path='/addToCart' element={<Cart/>}/>
+    </Routes>
     </div>
   );
 }

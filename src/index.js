@@ -2,19 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { ChakraProvider } from '@chakra-ui/react';
-
+import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import { ContextProvider } from './components/assignmentcontextapi/Contextapi';
+import CustomProductProvider from './components/Component/ProductContext/ProductContext';
+import { ChakraProvider } from '@chakra-ui/react'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <ChakraProvider>
-    <ContextProvider >
-    <BrowserRouter>
-      <App/>
-    </BrowserRouter>
-    </ContextProvider>
-  </ChakraProvider>
-);
+  <BrowserRouter>
+  <CustomProductProvider>
+<ChakraProvider>
 
+  <App />
+</ChakraProvider>
+  </CustomProductProvider>
+  </BrowserRouter>
+  
+);
+reportWebVitals();
