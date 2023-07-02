@@ -1,22 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
-import CustomProductProvider from './components/Component/ProductContext/ProductContext';
-import { ChakraProvider } from '@chakra-ui/react'
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./index.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <BrowserRouter>
-  <CustomProductProvider>
-<ChakraProvider>
+// redux
+import store from "./components/test2july/redux/store";
+import { Provider } from "react-redux";
 
-  <App />
-</ChakraProvider>
-  </CustomProductProvider>
-  </BrowserRouter>
-  
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
 );
-reportWebVitals();
