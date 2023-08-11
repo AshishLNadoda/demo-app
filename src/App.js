@@ -1,5 +1,5 @@
 
-import Abn from "./fs-06-/002/ab"
+import Col from "./fs-06-/React-Props-001/Col"
 
 
 
@@ -8,7 +8,7 @@ import Abn from "./fs-06-/002/ab"
 function App() {
   return (
     
-   <Abn/>
+   <Col/>
       
    
   )
