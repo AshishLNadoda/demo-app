@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+.divs{
+    height: 30%;
+    display: flex;
+    width: 70%;
+    margin: 12px 0 20px 12px;
+    background-color: #e3e2e2;
+    border-radius: 5px ;
+    /* border: 3px solid black; */
+}
+.Left{
+    height: 80%;
+    width: 70%;
+}
+.avatardiv{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    height:25%;
+    gap: 7px;
+}
+#avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.text{
+ font-size: 16px;
+ height:50% ;
+ text-align: start;
+ margin-top: 10px;
+ /* border: 2px solid red; */
+}
+.text h1{
+    margin-bottom: 10px;
+}
+.time{
+    margin-top: 10px;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border: 2px solid green; */
+}
+.Right{
+    height: 100%;
+    width: 30%;
+   
+}
+.Right img{
+    height: 100%;
+    width: 100%;
+}
+.dot{
+    margin-bottom: 8px;
+}
+#textbutton{
+    background-color: lightgrey;
+    border-radius: 14px;
+    padding: 5px;
+}
+
+@media (max-width: 320px) {
+    .divs{
+        height: 90%;
+        width: 98%;
+    }
+   .text h1{
+    font-size: medium;
+   }
+   .text p{
+    font-size: small;
+   }
+    .time{
+          margin-bottom: 50px;
+          font-size:smaller;
+    }
+    #textbutton{
+        font-size: x-small;
+    }
+    .avatardiv{
+        margin-top:0;
+    }
+  }
+  
+  @media (max-width: 425px) and (min-width:320px) {
+    .divs{
+        width:90%;
+    }
+
+   .text h1{
+    font-size: medium;
+    /* border: 2px solid black; */
+   }
+
+   .text p{
+    font-size: small;
+    font-weight: 600;
+   }
+
+    .time{
+          margin-top: 20px;
+          font-size:smaller;
+    }
+    #textbutton{
+        font-size: x-small;
+    }
+    .avatardiv{
+        margin-top:0;
+    }
+  }
+
+ @media (max-width: 760px) and (min-width:425px){
+    .divs{
+        width: 90%;
+    }
+   .text h1{
+    font-size: medium;
+   }
+   .text p{
+    font-size: small;
+    font-weight: 600;
+   }
+    .time{
+         margin-top: 30px;
+          font-size:smaller;
+         
+    }
+    #textbutton{
+        font-size: x-small;
+    }
+    .avatardiv{
+        margin-top:0;
+    }
+  } 
+  
+
+  @media (min-width: 760px) and (max-width:1430px){
+    .divs{
+        width: 90%;
+    }
+   .text h1{
+    font-size: larger;
+   }
+   .text p{
+    font-size: large;
+    font-weight: 600;
+   }
+    .time{
+         margin-top: 30px;
+          font-size:medium;
+         
+    }
+    #textbutton{
+        font-size: x-small;
+    }
+    .avatardiv{
+        margin-top:0;
+    }
+  } 
