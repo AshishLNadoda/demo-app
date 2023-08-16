@@ -51,6 +51,9 @@
   "react-bootstrap": "^2.7.4",
  
    
+  "react-copy-to-clipboard": "^5.1.0",
+ 
+   
   "react-dom": "^18.2.0",
  
    

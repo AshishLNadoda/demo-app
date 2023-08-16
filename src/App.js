@@ -1,20 +1,17 @@
 
-import React,{useState} from 'react'
-import Toogle from './fs-06-/React-States-001/Toogle';
+import "./App.css";
+import PasswordGen from "./fs-06-/React-States-003/Pass";
 
 
 
 
 
 function App() {
-  const[lightTheme, darkTheme]=useState(false);
+ 
   return (
     
-    <div style={{background:(lightTheme==false)? "white":"black"}} className="App">
-     
-      <Toogle lightTheme={lightTheme} darkTheme={darkTheme}
-
- />
+    <div className="App">
+      <PasswordGen />
     </div>
       
    
