@@ -1,41 +1,15 @@
+import React, { Component } from 'react';
+import './App.css';
+import Main from './fs-06-/React-UseEffect-001/Main';
 
-import "./App.css";
-import { useState } from 'react';
-
-import { marked } from 'marked';
-
-
-
-
-
-function App() 
-  {
-    const [markdownContent, setMarkdownContent] = useState('');
-  
-    const handleMarkdownChange = (event) => {
-      setMarkdownContent(event.target.value);
-    };
- 
-  return (
-    
-    <div className="App">
-    {<h1>Markdown Editor</h1> }
-    <div className="editor">
-      <textarea
-        value={markdownContent}
-        onChange={handleMarkdownChange}
-        rows={15}
-        cols={50}
-      />
-    </div>
-    <div className="preview">
-      { <h2>Preview</h2> }
-      <div className="markdown-preview" dangerouslySetInnerHTML={{ __html: marked(markdownContent) }} />
-    </div>
-  </div>
-      
-   
-  );
+class App extends Component {
+  render() {
+    return (
+      <div classname="App">
+       <Main/>
+      </div>
+    );
+  }
 }
 
 export default App;
