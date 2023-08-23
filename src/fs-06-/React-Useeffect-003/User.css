@@ -1,0 +1,32 @@
+form {
+    margin-top: 4vh;
+  }
+  .Guser-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .search-box {
+    width: 50vh;
+    height: 6vh;
+    border: none;
+    margin-right: 5vh;
+    border-radius: 15vh;
+    font-size: medium;
+    font-weight: 700;
+    padding-left: 3vh;
+  }
+  .submit-button {
+    width: 10vh;
+    height: 6vh;
+    font-size: small;
+    font-weight: 700;
+    border: none;
+    border-radius: 15vh;
+  }
+  .submit-button:hover {
+    cursor: pointer;
+  }
+  .Card {
+    margin-top: 4vh;
+  }
