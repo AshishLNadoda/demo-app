@@ -1,20 +1,13 @@
 
 import './App.css';
-import Gituser from './fs-06-/React-Useeffect-003/User';
+import Url from './fs-06-/React-useeffect-004/Url';
 
 
 function App() {
   return (
-    <div className="App-main">
-      <div className="App">
-        <div className="heading-main">
-          <h1 className="heading">Github Search Application</h1>
-        </div>
-        <div>
-          <Gituser />
-        </div>
-      </div>
-    </div>
+  <div>
+<Url/>
+  </div>
   );
 }
 
