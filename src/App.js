@@ -1,12 +1,10 @@
-
-import './App.css';
-import Url from './fs-06-/React-useeffect-004/Url';
+import Quiz from "./fs-06-/hook-1/Quiz";
 
 
 function App() {
   return (
   <div>
-<Url/>
+<Quiz/>
   </div>
   );
 }
