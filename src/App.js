@@ -1,10 +1,11 @@
-import Quiz from "./fs-06-/hook-1/Quiz";
+import Final from "./fs-06-/React-Context-002/Final";
+
 
 
 function App() {
   return (
   <div>
-<Quiz/>
+<Final/>
   </div>
   );
 }
