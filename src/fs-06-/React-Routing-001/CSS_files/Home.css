@@ -1,0 +1,198 @@
+.home {
+    /* border: 2px solid blue; */
+    width: 100%;
+    /* position: relative;
+    top: 6rem; */
+    z-index: 10; 
+
+}
+
+.home-mainDiv {
+    /* border: 2px solid red; */
+    height: 90vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.home-mainDiv-leftSide {
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.home-mainDiv-leftSide h1 {
+    /* border: 2px solid red; */
+    width: 90%;
+    font-size: 3rem;
+    line-height: 4.5rem;
+}
+
+.home-mainDiv-leftSide p {
+    /* border: 2px solid red; */
+    width: 90%;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+
+}
+
+.home-mainDiv-leftSide .btn-Div {
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-mainDiv-leftSide .btn-Div .btn-01,
+.btn-02 {
+    height: 80%;
+    width: 30%;
+    border-radius: 50px;
+    border: 1px solid black;
+
+}
+
+.home-mainDiv-rightSide {
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 55%;
+}
+
+.home-mainDiv-rightSide img {
+    width: 100%;
+    height: 100%;
+}
+
+.Choose-usDiv {
+    /* border: 2px solid blue; */
+    height: 120vh;
+    width: 100%;
+    /* display: flex; */
+
+}
+
+.Choose-usDiv .Choose-usDiv-topView {
+    /* border: 2px solid green; */
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Choose-usDiv .Choose-usDiv-bottomView {
+    display: flex;
+    height: 85%;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.We-doDiv {
+    /* border: 2px solid blue; */
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.We-doDiv .We-doDiv-topView {
+    /* border: 2px solid red; */
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.We-doDiv .We-doDiv-topView h1 {
+    font-size: 2rem;
+}
+
+.We-doDiv .We-doDiv-bottomView {
+    /* border: 2px solid black; */
+    height: 70%;
+    /* width: 100%; */
+    display: flex;
+     overflow-x: scroll;
+  
+
+    
+
+}
+/* .We-doDiv .We-doDiv-bottomView .ChooseCard{
+    width: 800px;
+} */
+.We-doDiv .We-doDiv-bottomView img {
+width: 100px;
+}
+
+.Project-div{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e9efff;
+
+}
+.Project-div .project-Card{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    transition: all 0.1s ease-in-out;
+
+
+}
+.Project-div .project-Card :hover{
+    transform: scale(1.1);
+}
+.Project-div button{
+    height: 10%;
+    width: 15%;
+    background-color: darkslateblue;
+    color: white;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 5px;
+}
+.Office-PlaceDiv{
+    height: 40vh;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: 2rem 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e9efff;
+    border-radius: 10px;
+}
+.Office-PlaceDiv .child{
+/* border: 2px solid blue; */
+height: 90%;
+width: 25%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+.Office-PlaceDiv .child img{
+    /* border: 2px solid red; */
+height: 70%;
+width: 70%;
+
+}

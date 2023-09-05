@@ -1,0 +1,27 @@
+.ChooseCard{
+    /* border: 2px solid red; */
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
+}
+.ChooseCard img{
+    /* border: 2px solid blue; */
+
+height: 15%;
+}
+.ChooseCard h2{
+    /* border: 2px solid blue; */
+
+height: 5%;
+}
+.ChooseCard p{
+    /* border: 2px solid blue; */
+    width: 85%;
+    height: 75%;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}

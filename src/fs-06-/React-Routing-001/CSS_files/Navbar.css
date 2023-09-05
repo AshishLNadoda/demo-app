@@ -1,0 +1,38 @@
+.Navbar{
+    /* position: fixed; */
+    /* position: absolute; */
+    /* border: 2px solid blue; */
+   width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    /* background-color: aquamarine; */
+    box-shadow: 2px 2px 5px;
+}
+.logo img{
+    width: 6rem;
+}
+.Navbar ul{
+    /* border: 2px solid red; */
+    width: 45%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.Navbar ul li{
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+.Navbar button{
+    height: 3.2rem;
+    width: 10rem;
+    background-color: #1f3e76;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,82 @@
+.contact{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.contact  .leftSide{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 50%;
+
+}
+.contact .leftSide img{
+    /* border: 2px solid red; */
+    margin-top: 1rem;
+    height: 90%;
+    width: 100%;
+}
+ .rightSide{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    /* justify-content: space-around; */
+
+
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.contact .rightSide input{
+    /* border: 2px solid blue; */
+    height: 50%;
+    width: 60%;
+}
+.contact .rightSide label{
+font-size: 1.4rem;
+}
+.contact .rightSide textarea{
+    /* border: 2px solid blue; */
+    height: 70%;
+    width: 80%;
+}
+.contact .rightSide .name{
+    /* border: 2px solid green; */
+    height: 25%;
+    width: 100%;
+   
+}
+.contact .rightSide .email{
+    /* border: 2px solid green; */
+    height: 25%;
+    width: 100%;
+}
+.contact .rightSide .number{
+    /* border: 2px solid green; */
+    height: 25%;
+    width: 100%;
+}
+.contact .rightSide .msg{
+    /* border: 2px solid green; */
+    height: 75%;
+    width: 100%;
+}
+.contact .rightSide .btn{
+    /* border: 2px solid green; */
+    height: 15%;
+    width: 100%;
+}
+
+.contact .rightSide button{
+    height: 80%;
+    width: 20%;
+    border-radius: 50px;
+    background-color: #1f3e76;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+}

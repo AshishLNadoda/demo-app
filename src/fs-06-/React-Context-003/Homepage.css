@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap");
+.App {
+  text-align: center;
+}
+#light {
+  background-color: white;
+}
+#dark {
+  background-color: black;
+}
+* {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+.main {
+  height: 100vh;
+  /* background-color: black; */
+}
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 12vh;
+
+  padding-top: 1vh;
+}
+.logo {
+  height: 12vh;
+  margin-left: 2vh;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 10vh;
+}
+li {
+  list-style: none;
+  font-size: 3vh;
+  font-weight: 600;
+}
+#light li {
+  color: black;
+}
+#dark li {
+  color: rgb(242, 102, 58);
+}
+
+.buttons {
+  margin-right: 2vh;
+}
+.login-button {
+  font-weight: 800;
+  font-size: 2.2vh;
+  height: 5.5vh;
+  width: 12vh;
+
+  border: none;
+  border-radius: 2.5vh;
+  margin-right: 3vh;
+}
+#light .login-button {
+  background-color: rgb(242, 102, 58);
+  color: white;
+}
+#dark .login-button {
+  background-color: rgb(204, 204, 204);
+  color: black;
+}
+.theme-label {
+  font-weight: 700;
+}
+#light .theme-label {
+  color: black;
+}
+#dark .theme-label {
+  color: white;
+}
+.cotent-main {
+  margin-top: 6vh;
+ text-align: center;
+}
+.search-section {
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+.search-bar {
+  width: 70vh;
+  height: 5vh;
+  margin-left: 5vh;
+  border: none;
+  border-radius: 5vh;
+  padding-left: 2vh;
+  font-weight: 700;
+  font-size: medium;
+}
+.search-button {
+  background-color: rgb(68, 127, 255);
+  color: white;
+  margin-left: 10vh;
+  height: 6vh;
+  width: 15vh;
+  border: none;
+  border-radius: 3vh;
+  font-weight: 700;
+  font-size: medium;
+}
+
+.ss2 {
+  width: 60%;
+  background-color: rgb(185, 185, 185);
+  height: 9vh;
+  align-items: center;
+  border-radius: 5vh;
+  display: flex;
+  justify-content: center;
+}
+.h1 {
+  font-size: 12vh;
+  font-weight: 800;
+}
+#light .h1 {
+  color: black;
+}
+#dark .h1 {
+  color: rgb(242, 102, 58);
+}
+.h2 {
+  font-size: 12vh;
+  font-weight: 800;
+  color: rgb(242, 102, 58);
+}
+#light .h2 {
+  color: rgb(242, 102, 58);
+}
+#dark .h2 {
+  color: white;
+}
+/* #light .h2 {
+  color: black;
+}
+#dark .h2 {
+  color: white;
+} */
+p {
+  font-size: 2.5vh;
+  margin-top: 8vh;
+}
+#light p {
+  color: black;
+}
+#dark p {
+  color: white;
+}
