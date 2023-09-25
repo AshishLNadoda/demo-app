@@ -1,0 +1,16 @@
+.home img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+.home{
+    height: 87vh;
+    width: 99vw;
+}
+
+@media only screen and (max-width: 650px){
+    .home img{
+        width: 100%;
+        height: 100%;
+    }
+}
